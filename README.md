@@ -65,7 +65,6 @@ A backend API project built with Django REST Framework.
 - Product Management
 - Cart System
 - Order Management
-- Payment System
 - Role-Based Permissions
 - Pagination & Filtering
 - RESTful API Architecture
@@ -76,6 +75,9 @@ A backend API project built with Django REST Framework.
 - Django REST Framework
 - MySQL
 - Postman
+
+🔗 Repository:  
+[View Project](https://github.com/indrojchowdhury/Multi-Vendor-Marketplace-API)
 
 ---
 
@@ -101,6 +103,10 @@ A job portal web application with separate dashboards for employers and job seek
 - HTML
 - CSS
 - MySQL
+- Postman
+
+🔗 Repository:  
+[View Project](https://github.com/indrojchowdhury/Job-Portal)
 
 ---
 
@@ -115,32 +121,17 @@ A job portal web application with separate dashboards for employers and job seek
 - Clean Architecture
 
 ---
-
-# 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=indrojchowdhury&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrojchowdhury&layout=compact&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=indrojchowdhury&theme=tokyonight" />
-</p>
-
----
-
 # 🌐 Connect With Me
 
 <p align="center">
   <a href="https://github.com/indrojchowdhury">
-  <a href="https://www.linkedin.com/in/indrojchowdhury/">
     <img src="https://skillicons.dev/icons?i=github" />
   </a>
-</p>
 
+  <a href="https://linkedin.com/in/indrojchowdhury">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+</p>
 ---
 
 # ⚡ Developer Mindset
