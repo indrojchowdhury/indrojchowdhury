@@ -7,7 +7,7 @@
 
 ---
 
-# 🚀 About Me
+#  About Me
 
 - 💻 Backend-focused software engineer
 - ⚙️ Building scalable REST APIs using Django & Django REST Framework
