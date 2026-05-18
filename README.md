@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Indrojit Chowdhury</h1>
+<h1 align="center">Hi, I'm Indrojit Chowdhury</h1>
 <h3 align="center">Junior Software Engineer (Backend)</h3>
 
 <p align="center">
