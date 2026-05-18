@@ -90,6 +90,7 @@ A job portal web application with separate dashboards for employers and job seek
 - JWT Authentication
 - Role-Based Permissions
 - Employer Dashboard
+- JobSeeker Dashboard
 - Job Posting System
 - Job Search & Filtering
 - Resume Upload System
