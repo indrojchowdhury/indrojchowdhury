@@ -103,7 +103,6 @@ A job portal web application with separate dashboards for employers and job seek
 - HTML
 - CSS
 - MySQL
-- Postman
 
 🔗 Repository:  
 [View Project](https://github.com/indrojchowdhury/Job-Portal)
