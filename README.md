@@ -131,14 +131,3 @@ A job portal web application with separate dashboards for employers and job seek
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
 </p>
----
-
-# ⚡ Developer Mindset
-
-```python
-while True:
-    learn()
-    build()
-    solve_problems()
-    improve()
-```
