@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  I am a backend developer who loves building web apps and APIs using Python and Django. Open to global remote jobs.
+  I am a Backend Developer specializing in Python, Django, Django REST Framework, and MySQL. I also bring 6 months of professional experience as a Product Development Engineer, which has given me a solid understanding of the software development lifecycle, system design, and team collaboration. To ensure my code is efficient and scalable, I regularly practice Data Structures and Algorithms on LeetCode.
 </p>
 
 ---
