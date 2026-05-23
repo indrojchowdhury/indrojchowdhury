@@ -25,6 +25,18 @@
 
 ---
 
+# ✅ Comfortable Working With
+
+- Django ORM & Query Optimization
+- REST API Development (DRF)
+- Authentication & Authorization Systems (JWT, RBAC)
+- Relational Database Design (PostgreSQL / MySQL)
+- Core Backend Business Logic & Workflows
+- Docker Containerization
+- Linux Environment & Git Workflow
+
+---
+
 # 🧰 Tech Stack
 
 <p align="left">
@@ -37,13 +49,26 @@
 
 ---
 
-# 🚀 Projects
+# 🚀 Featured Projects
 
 ---
 
 ## 🛒 Multi-Vendor Marketplace API
 
 A backend API for an e-commerce platform where multiple sellers can sell products.
+
+### 🏗️ Architecture Overview
+The project is divided into modular Django apps:
+
+<pre><code>config/                  # Project settings and main URLs
+apps/
+  ├── authentication/    # JWT authentication & user login system
+  ├── users/             # Buyer/Seller profiles & custom user management
+  ├── products/          # Product catalog & vendor product CRUD system
+  ├── cart/              # Shopping cart operations
+  ├── orders/            # Order processing & order management workflow
+  └── payments/          # SSLCommerz payment integration & IPN handling</code></pre>
+<br/>
 
 ### 🔥 Key Features
 - **User Login:** Secure JWT authentication with token refresh system.
@@ -65,6 +90,16 @@ Python • Django • Django REST Framework • MySQL • Postman
 
 A complete job board website with different dashboards for employers and job seekers.
 
+### 🏗️ Project Architecture
+
+<pre><code>config/                  # Core settings and configuration
+apps/
+  ├── users/             # User profiles & authentication
+  ├── jobs/              # Job posting & search with pagination
+  ├── applications/      # Resume upload & apply system workflows
+  └── notifications/     # Transactional emails & system alerts</code></pre>
+<br/>
+
 ### 🔥 Key Features
 - **Double Dashboard:** Separate control panels for Employers and Job Seekers.
 - **Job Management:** Employers can post jobs, check applications, and accept or reject candidates.
@@ -78,7 +113,7 @@ Python • Django • MySQL • HTML5 • CSS3
 ### 🔗 Links
 - [📂 GitHub Repository](https://github.com/indrojchowdhury/Job-Portal)
 - [🌐 Live Demo](https://indrojit.pythonanywhere.com)
-
+  
 ---
 
 # 🧠 Problem Solving
