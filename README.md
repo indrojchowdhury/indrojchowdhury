@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Indrojit Chowdhury</h1>
-<h3 align="center">Backend Developer | Python | Django | Django REST Framework</h3>
+<h1 align="center">Hello, I'm Indrojit Chowdhury</h1>
+<h3 align="center">Full-Stack Developer | Focused on Backend Architecture</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/indrojchowdhury" target="_blank">
@@ -11,41 +11,42 @@
 </p>
 
 <p align="center">
-  I am a Backend Developer specializing in Python, Django, Django REST Framework, and MySQL. I also bring 6 months of professional experience as a Product Development Engineer, which has given me a solid understanding of the software development lifecycle, system design, and team collaboration. To ensure my code is efficient and scalable, I regularly practice Data Structures and Algorithms on LeetCode.
+  I am a Full-Stack Developer with a strong focus on Backend Engineering. My everyday work involves building web apps and APIs using Python, Django, Django REST Framework, and PostgreSQL/MySQL, while connecting them with clean React and Tailwind CSS frontends. With 6 months of professional experience as a Product Development Engineer, I have a good grasp of software design, testing, and team workflows. I also practice on LeetCode regularly to keep my problem-solving skills sharp and my code usable.
 </p>
 
 ---
 
 # 💻 About Me
 
-- ⚙️ **Backend Developer:** I focus on writing clean code, building APIs, and designing databases.
-- 🔐 **Security:** Experienced in protecting APIs using JWT login and user roles.
-- 🧠 **Problem Solver:** I practice Data Structures & Algorithms on LeetCode regularly to improve my logic.
-- 🌱 **Learning:** Currently learning Docker, Redis, Celery, and system design basics to write better and faster backend code.
+- ⚙️ **Backend & Full-Stack Work:** Focus on writing clean backend logic, designing fast databases, and building responsive user interfaces that connect smoothly with APIs.
+- 🐳 **Docker & Task Queues:** Experienced in using Docker to containerize applications and running background tasks using Celery and Redis.
+- 🔐 **Security & Access Control:** Good understanding of securing systems using Custom User Models, JWT login tokens, and role-based permissions (RBAC).
+- 🧠 **Problem Solving:** Regularly solve Data Structures and Algorithms problems on LeetCode to improve logic and write faster database queries.
 
 ---
 
 # ✅ Comfortable Working With
 
-- Django ORM & Query Optimization
-- REST API Development (DRF)
-- Authentication & Authorization Systems (JWT, RBAC)
+- Django ORM & Fixing N+1 Query Issues
+- REST API Development (DRF) & Custom Pagination
+- Authentication Systems (JWT, Role-Based Access)
 - Relational Database Design (PostgreSQL / MySQL)
-- Core Backend Business Logic & Workflows
-- Docker Containerization
-- Linux Environment & Git Workflow
+- Asynchronous Background Tasks (Celery & Redis)
+- Connecting React Frontends with Backend APIs
+- Docker Containers & Basic Linux Environments
 
 ---
 
 # 🧰 Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,django,mysql,postgres,git,github,postman,docker,linux,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,django,postgres,mysql,react,tailwind,vite,docker,redis,linux,git,github,postman,vscode" />
 </p>
 
-**Languages & Frameworks:** Python, Django, Django REST Framework (DRF)  
-**Databases:** MySQL, PostgreSQL  
-**Concepts & Tools:** REST APIs, JWT Authentication, Role-Based Permissions, API Throttling, Postman
+**Backend:** Python, Django, Django REST Framework (DRF), Celery, Celery Beat  
+**Frontend:** React 19, Vite, Tailwind CSS, Axios, JavaScript (ES6+)  
+**Databases & Caching:** PostgreSQL, MySQL, Redis  
+**Tools & Services:** Docker, Git/GitHub, Postman, Google Gemini API, Linux
 
 ---
 
@@ -53,87 +54,54 @@
 
 ---
 
-## 🛒 Multi-Vendor Marketplace API
+## 🤖 HireOS – AI-Powered Multi-Tenant SaaS Portal (Full-Stack)
 
-A backend API for an e-commerce platform where multiple sellers can sell products.
-
-### 🏗️ Architecture Overview
-The project is divided into modular Django apps:
-
-<pre><code>config/                  # Project settings and main URLs
-apps/
-  ├── authentication/    # JWT authentication & user login system
-  ├── users/             # Buyer/Seller profiles & custom user management
-  ├── products/          # Product catalog & vendor product CRUD system
-  ├── cart/              # Shopping cart operations
-  ├── orders/            # Order processing & order management workflow
-  └── payments/          # SSLCommerz payment integration & IPN handling</code></pre>
-<br/>
+A complete recruitment website and Applicant Tracking System (ATS) built to handle multi-tenant business hiring, automated resume screening, background workflows, and payment setups.
 
 ### 🔥 Key Features
-- **User Login:** Secure JWT authentication with token refresh system.
-- **User Roles:** Separate permissions and features for Buyers, Sellers, and Admins.
-- **Payment Gateway:** Integrated **SSLCommerz** payment system with automatic order status updates.
-- **API Security:** Used API throttling (rate limiting) to protect the system from spam requests.
-- **Core Features:** Built complete system for product management, shopping cart, and orders.
+- **AI Resume Screening:** Integrated Google Gemini LLM with Celery background tasks to automatically parse resumes and generate matching scores.
+- **Kanban Board:** Built a drag-and-drop React ATS dashboard using optimistic frontend updates and backend PATCH API syncing.
+- **Background Task Automation:** Used Celery and Redis to handle heavy, non-blocking tasks like automated ReportLab PDF offer letter generation and email dispatchers.
+- **Database Speed Optimization:** Speed up database performance by 10x across core endpoints by replacing slow queries with proper `select_related()` and `prefetch_related()` logic.
+- **File Protection:** Secured candidate resumes by moving uploads out of the public folder into a private directory guarded by custom permission views.
+- **B2B Foundations:** Created payment test setups for Stripe and SSLCommerz alongside a Google Calendar API integration framework for automated interview booking.
+
+### 🛠 Tech Stack
+Python • Django • DRF • React 19 • Tailwind CSS • PostgreSQL • Celery • Redis • Docker • Gemini AI
+
+### 🔗 Links
+- [📂 GitHub Repository](https://github.com/indrojchowdhury/HireOS-AI-Powered-Multi-Tenant-SaaS-Job-Portal-ATS)
+
+---
+
+## 🛒 Multi-Vendor Marketplace API
+
+A backend API for an e-commerce platform where multiple sellers can set up stores and manage product orders.
+
+### 🔥 Key Features
+- **Secure Login:** JWT token authentication with a built-in token refresh system.
+- **User Roles:** Separate database permissions and views for Buyers, Sellers, and Admins.
+- **Payment Integration:** Integrated **SSLCommerz** payment system with automated order status updates using Instant Payment Notifications (IPN).
+- **API Protection:** Applied rate-limiting (throttling) to keep endpoints safe from spam or bot requests.
 
 ### 🛠 Tech Stack
 Python • Django • Django REST Framework • MySQL • Postman
 
 ### 🔗 Links
 - [📂 GitHub Repository](https://github.com/indrojchowdhury/Multi-Vendor-Marketplace-API)
-- [📄 API Documentation](https://your-api-link.com/swagger/)
 
----
-
-## 💼 Job Portal System
-
-A complete job board website with different dashboards for employers and job seekers.
-
-### 🏗️ Project Architecture
-
-<pre><code>config/                  # Core settings and configuration
-apps/
-  ├── users/             # User profiles & authentication
-  ├── jobs/              # Job posting & search with pagination
-  ├── applications/      # Resume upload & apply system workflows
-  └── notifications/     # Transactional emails & system alerts</code></pre>
-<br/>
-
-### 🔥 Key Features
-- **Double Dashboard:** Separate control panels for Employers and Job Seekers.
-- **Job Management:** Employers can post jobs, check applications, and accept or reject candidates.
-- **Resume Upload:** Job seekers can create profiles and upload their CVs (.pdf/.docx format).
-- **Email Alerts:** Automatically sends emails to job seekers when their application status changes.
-- **Search & Filter:** Built a search system with pagination so users can find jobs easily.
-
-### 🛠 Tech Stack
-Python • Django • MySQL • HTML5 • CSS3
-
-### 🔗 Links
-- [📂 GitHub Repository](https://github.com/indrojchowdhury/Job-Portal)
-- [🌐 Live Demo](https://indrojit.pythonanywhere.com)
-  
 ---
 
 # 🧠 Problem Solving
 
-- I solve algorithmic problems on LeetCode to make my programming logic stronger.
-- I follow **PEP 8** guidelines to keep my Python code clean and easy to read for other developers.
-
----
-
-# 📚 Currently Learning
-
-- 🐳 **Docker:** Learning how to containerize apps so they run everywhere.
-- ⚡ **Redis & Celery:** Learning how to handle background tasks like sending emails without slowing down the app.
-- 🏗️ **System Design:** Studying how big companies manage millions of users.
+- I solve problems on LeetCode to make my programming logic stronger.
+- Also follow **PEP 8** guidelines to ensure my Python code is clean and easy for other developers to read.
 
 ---
 
 # 🌍 Career Goal
 
-I want to work as a remote backend developer for international companies. I am comfortable working as an independent contractor and collaborating with global teams.
+I want to work as a Full Stack software engineer / Backend developer and comfortable working as an independent contractor and collaborating with local and global teams.
 
 ---
 
